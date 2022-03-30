@@ -1,0 +1,203 @@
+
+/* Top porttion CSS */
+#top-portion{
+  text-align: center;
+}
+
+.top-img{
+  width: 30%;
+}
+
+.nav-img{
+  width: 20%
+}
+
+/*  Nav bar me up daddy  */
+#nav-bar-main{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* need media query for iphone*/
+.nav-bar-pad{
+  padding: 5% 42%;
+}
+.navL{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* images*/
+.img-kitch{
+  width: 100%;
+
+}
+
+.weatwai{
+  padding-top: 50px;
+}
+
+
+/* infomation secion */
+#info{
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.info-h2{
+  padding-bottom: 9px;
+  padding-top: 45px;
+}
+
+
+/* ABOUT ME */
+#about-us{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f8f9fa!important;
+  padding: 5% 15%;
+}
+
+
+
+/* gallery  */
+
+
+body {
+    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 30vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+
+/* reviews  */
+
+#reviews{
+  text-align: center;
+  background-color: #f8f9fa!important;
+  padding-bottom: 50px;
+}
+.revws{
+  margin-top: 30px 20px;
+  padding: 2%;
+}
+
+
+
+
+
+/* sign in  */
+.conta{
+  text-align: center;
+  margin: 5% auto;
+  padding: 2%;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin .top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin .middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.form-signin .bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+/* footer  */
+
+#footer{
+  text-align: center;
+  background-color: #f8f9fa!important;
+  margin-top: 30px 20px;
+  padding: 2%;
+}
+
+.footer-icon{
+  margin: 5% auto;
+  color: #323232;
+}
